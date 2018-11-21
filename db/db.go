@@ -9,12 +9,12 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
 package db
 
 import (
-	"database/sql"
+	//"database/sql"
 	"fmt"
 	"log"
 	"os/exec"
 
-	_ "gopkg.in/rana/ora.v4"
+	//_ "gopkg.in/rana/ora.v4"
 )
 
 /*
@@ -25,6 +25,7 @@ func Hello(name string) {
 	fmt.Println("hello from gesa/hello", name)
 }
 
+/*
 func connect(constr string) {
 	db, err := sql.Open("ora", constr)
 
