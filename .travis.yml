@@ -3,5 +3,5 @@ go:
   - "1.10.x"
   - "1.11.x"
 env:
-before_install:
-script:
+  global:
+    - GO_FOR_RELEASE=1.11
