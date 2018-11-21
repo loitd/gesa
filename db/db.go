@@ -1,4 +1,4 @@
-package main
+package db
 
 import (
 	"database/sql"
@@ -8,6 +8,10 @@ import (
 
 	_ "gopkg.in/rana/ora.v4"
 )
+
+func hello() {
+	fmt.Println("hello")
+}
 
 func connect(constr string) {
 	db, err := sql.Open("ora", constr)
@@ -52,8 +56,11 @@ func ping(target string) string {
 		return string(out)
 	}
 }
-func main() {
-	// res := ping("8.8.8.8")
-	// fmt.Print(res)
-	connect("VIRTUAL_ACCOUNT/VIRTUAL_ACCOUNT1234@172.16.10.84:1521/DB84")
-}
+
+//func main() {
+// res := ping("8.8.8.8")
+// fmt.Print(res)
+//connect("VIRTUAL_ACCOUNT/VIRTUAL_ACCOUNT1234@172.16.10.84:1521/DB84")
+//}
+
+var db db
