@@ -13,7 +13,6 @@ import (
 	"fmt"
 	"log"
 	"os/exec"
-
 	//_ "gopkg.in/rana/ora.v4"
 )
 
@@ -59,6 +58,7 @@ func connect(constr string) {
 	defer rows.Close()
 
 }
+*/
 
 func ping(target string) string {
 	out, err := exec.Command("ping", "8.8.8.8").Output()
