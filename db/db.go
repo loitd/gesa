@@ -1,3 +1,11 @@
+/*
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+*/
+
+/*
+	This package does anything with database for this app/plugin.
+*/
 package db
 
 import (
@@ -9,8 +17,12 @@ import (
 	_ "gopkg.in/rana/ora.v4"
 )
 
-func hello() {
-	fmt.Println("hello")
+/*
+	Hello is a public function of this test package
+	It return just a hello message
+*/
+func Hello(name string) {
+	fmt.Println("hello from gesa/hello", name)
 }
 
 func connect(constr string) {
@@ -62,5 +74,3 @@ func ping(target string) string {
 // fmt.Print(res)
 //connect("VIRTUAL_ACCOUNT/VIRTUAL_ACCOUNT1234@172.16.10.84:1521/DB84")
 //}
-
-var db db
