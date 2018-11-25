@@ -9,11 +9,13 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
 package db
 
 import (
-	//"database/sql"
+	"database/sql"
 	"fmt"
 	"log"
 	"os/exec"
-	//_ "gopkg.in/rana/ora.v4"
+	"strings"
+
+	_ "gopkg.in/rana/ora.v4"
 )
 
 /*
@@ -25,13 +27,16 @@ func Hello(name string) {
 }
 
 /*
-func connect(constr string) {
+	To connect to database and execute some queries if needed
+*/
+func Connect(constr string) {
+	//fmt.Println("Begin Connect function")
 	db, err := sql.Open("ora", constr)
 
 	if err != nil {
 		fmt.Println("Err while init: ", err)
 	} else {
-		fmt.Println("Init successfully ...")
+		fmt.Println("Init OK")
 	}
 
 	defer db.Close()
@@ -41,7 +46,11 @@ func connect(constr string) {
 	rows, err := db.Query(sql1)
 
 	if err != nil {
-		fmt.Println("Err while query: ", err)
+		if strings.Contains(err.Error(), "ORA-12560: TNS:protocol adapter error") {
+			panic("TNS Error")
+		} else {
+			panic(err.Error())
+		}
 	} else {
 		fmt.Println("Query successfully...")
 		for rows.Next() {
@@ -58,7 +67,6 @@ func connect(constr string) {
 	defer rows.Close()
 
 }
-*/
 
 func ping(target string) string {
 	out, err := exec.Command("ping", "8.8.8.8").Output()

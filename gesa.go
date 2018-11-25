@@ -7,5 +7,3 @@ import (
 func main() {
 	fmt.Println("ahihi")
 }
-
-// Aoki Rin
