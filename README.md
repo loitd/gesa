@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/loitd/gesa.svg?branch=master)](https://travis-ci.org/loitd/gesa)
 [![codecov](https://codecov.io/gh/loitd/gesa/branch/master/graph/badge.svg)](https://codecov.io/gh/loitd/gesa)
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/gesa-dev/Lobby#)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/loitd/gesa/pulls)
 ## Introduction
 Go E-SQL Agent for Grafana and more written in Golang
 ## Installation
