@@ -17,7 +17,8 @@ func TestHello(t *testing.T) {
 }
 
 func TestConnect(t *testing.T) {
-	db.Connect("abc")
-	// Output
+	dbins := db.DBStruct{}
+	dbins.Connect("abc/cds")
+	// Output:
 	// Init OK
 }
