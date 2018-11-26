@@ -3,7 +3,7 @@
 [![codecov](https://codecov.io/gh/loitd/gesa/branch/master/graph/badge.svg)](https://codecov.io/gh/loitd/gesa)
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/gesa-dev/Lobby#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/loitd/gesa/pulls)
-[https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?svg=true](https://ci.appveyor.com/api/projects/status/github/loitd/gesa?branch=master&svg=true)
+[(https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?svg=true)](https://ci.appveyor.com/api/projects/status/github/loitd/gesa?branch=master&svg=true)
 ## Introduction
 Go E-SQL Agent for Grafana and more written in Golang
 ## Installation
