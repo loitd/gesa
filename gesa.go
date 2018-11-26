@@ -1,3 +1,5 @@
+// Golang E-SQL Agent for Grafana
+// This is the main package
 package gesa
 
 import (
