@@ -5,6 +5,8 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/loitd/gesa/pulls)
 [![appveyor](https://ci.appveyor.com/api/projects/status/github/loitd/gesa?branch=master&svg=true)](https://ci.appveyor.com/api/projects/status/github/loitd/gesa?branch=master&svg=true)
 [![](https://godoc.org/github.com/loitd/gesa?status.svg)](http://godoc.org/github.com/loitd/gesa)
+[![Go Report Card](https://goreportcard.com/badge/github.com/loitd/gesa)](https://goreportcard.com/report/github.com/loitd/gesa)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/129/badge)](https://bestpractices.coreinfrastructure.org/projects/129)
 
 ## Introduction
 Go E-SQL Agent for Grafana and more written in Golang
