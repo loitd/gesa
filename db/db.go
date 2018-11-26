@@ -3,10 +3,9 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 https://creativecommons.org/licenses/by-nc-sa/4.0/
 */
 
-/*
-	This package does anything with database for this app/plugin.
-	Currently added Oracle database via ora.v4 developed and tested on Windows OS.
-*/
+// This package does anything with database for this app/plugin.
+// Currently added Oracle database via ora.v4 developed and tested on Windows OS.
+// Created by Loitd for his project
 package db
 
 import (
