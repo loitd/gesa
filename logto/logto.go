@@ -2,7 +2,7 @@
 	This package does anything with logfiles.
 	Currently developed and tested on Windows OS.
 */
-package log
+package logto
 
 import (
 	"fmt"
